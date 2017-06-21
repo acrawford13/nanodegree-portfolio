@@ -1,0 +1,160 @@
+/*
+ *  For screen sizes smaller than 480px
+ *
+ *  CONTENTS
+ *  01: General Styling
+ *  02: Header
+ *  03: Main Section
+ *  04: Footer
+ */
+
+ 
+/* 01: General Styling */
+
+* {
+    font-family: Raleway, sans-serif;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 1rem;
+}
+
+img {
+    max-width: 100%;
+}
+
+hr {
+    border-top: none;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    border-bottom: 3px solid transparent;
+    border-image: url(../img/line.png);
+    border-image-slice: 5 70;
+    opacity: 0.4;
+    box-sizing: content-box;
+    max-width: 950px;
+    margin: 0 auto;
+}
+
+a:link {
+    color: #02b3e4;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover, a:visited, a:active, a:focus {
+    color: #0393ba;
+}
+
+header, main, footer {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* 02: Header Styling */
+
+header {
+    text-align: right;
+    position: relative;
+    height: 216px;
+    padding-bottom: 2rem;
+}
+
+header #logo {
+    position: absolute;
+    top: 1.25rem;
+    left: 0;
+}
+
+header img {
+    max-height: 100%;
+}
+
+header .header-title {
+    position: absolute;
+    bottom: 2rem;
+    text-align: left;
+}
+
+header h1,
+header h3 {
+    margin: 0;
+}
+
+header h1 {
+    font-weight: 800;
+    letter-spacing: -0.5px;
+    color: #f33;
+    font-size: 2.5rem;
+    line-height: 0.9em;
+    max-width: 60%;
+}
+
+header h3 {
+    font-size: 1rem;
+    color: #263238;
+    margin-top: 1rem;
+}
+
+header h3 span {
+    display: inline-block;
+}
+
+/* 03: Main Section Styling */
+
+main {
+    padding: 3rem 0;
+}
+
+main h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+    color: #9e9e9e;
+    text-align: center;
+}
+
+.featured-work {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.featured-work article {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-content: flex-start;
+}
+
+.featured-work article .item-heading {
+    order: 1;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+    text-align: center;
+    width: 100%;
+    font-size: 1.25rem;
+    letter-spacing: -0.25px;
+}
+
+.featured-work article .item-image {
+    order: 2;
+}
+
+.featured-work article .item-description {
+    order: 3;
+}
+
+/* 04: Footer Styling */
+
+footer {
+    padding: 2rem 0;
+    text-align: right;
+}

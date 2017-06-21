@@ -1,0 +1,36 @@
+/*
+ *  For screen sizes 720px and larger
+ *
+ *  CONTENTS
+ *  01: General Styling
+ *  02: Header
+ *  03: Main Section
+ *
+ */
+ 
+/* 01: General Styling */
+ 
+body {
+    padding: 1rem;
+}
+
+/* 02: Header Styling */
+
+header {
+    height: 250px;
+    padding-bottom: 1rem;
+}
+
+header .header-title {
+    bottom: 3.25rem;
+}
+
+header h3 {
+    margin-top: 0.25rem;
+}
+
+/* 03: Main Section Styling */
+
+.featured-work article {
+    width: 33%;
+}

@@ -1,0 +1,53 @@
+/*
+ *  For screen sizes between 480px and 719px
+ *
+ *  CONTENTS
+ *  01: Header
+ *  02: Main Section
+ *
+ */
+
+/* 01: Header Styling */
+
+header .header-title {
+    max-width: 70%;
+}
+header h1 {
+    max-width: 100%;
+}
+header h3 {
+    margin-top: 0.5rem;
+}
+ 
+/* 02: Main Section Styling */
+
+main h2 {
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+.featured-work {
+    margin-left: -1rem;
+    margin-right: -1rem;
+}
+
+.featured-work article {
+    padding: 1rem;
+    width: 50%;
+}
+
+.featured-work article .item-image {
+    order: 1;
+}
+
+.featured-work article .item-heading {
+    order: 2;
+    margin-bottom: 0;
+    font-size: 1.25rem;
+    letter-spacing: 0;
+    text-align: left;
+}
+
+.featured-work article .item-description {
+    order: 3;
+}
